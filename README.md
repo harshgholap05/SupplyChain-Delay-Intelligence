@@ -13,7 +13,7 @@
 
 <br/>
 
-[🔴 Live Demo](https://supplychain-delay-intelligence-harshvardhan-gholap.vercel.app/) &nbsp;·&nbsp; 
+[🔴 Live Demo](https://supplychain-delay-intelligence-harshvardhan-gholap.vercel.app/) &nbsp;
 
 <br/>
 
