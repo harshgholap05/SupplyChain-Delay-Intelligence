@@ -142,53 +142,86 @@ InventorySnapshot ──► vw_InventoryStatus
 
 ## 📸 Dashboard Preview
 
-### 📊 Dashboard 1 — Executive Overview
+### Page 1 — Executive Overview
+> *The single-screen command centre for leadership*
 
 ![Dashboard 1](https://raw.githubusercontent.com/harshgholap05/SupplyChain-Delay-Intelligence/main/Dashboard%20Images%20Preview/Dashboard%201.png)
 
-**Highlights:**
-- Executive KPI cards
-- Delay trend analysis
-- Root cause breakdown
-- Delivery performance tracking
+**KPI Cards (5):**
+
+| KPI | Value | Color | DAX Measure |
+|-----|-------|-------|-------------|
+| Total Orders | 100 | Purple `#A78BFA` | `COUNT(POID)` |
+| On-time % | 67.4% | Green `#4ADE80` | `DIVIDE(OnTime, Total)` |
+| Delayed Orders | 36 | Red `#F87171` | `COUNTROWS FILTER DelayDays > 0` |
+| Avg Delay Days | 4.8d | Amber `#FBBF24` | `AVERAGEX DelayDays > 0` |
+| Critical Delays | 12 | Red `#F87171` | `COUNTROWS "Critical Delay"` |
+
+**Visuals:**
+- 📈 12-month delay rate trend line chart
+- 🍩 Root cause donut chart
+- 🎯 4 ring charts
+- 📊 Delivery status strip
 
 ---
 
-### 🏭 Dashboard 2 — Supplier Deep Dive
+### Page 2 — Supplier Deep-Dive
+> *Identify which suppliers are hurting your business*
 
 ![Dashboard 2](https://raw.githubusercontent.com/harshgholap05/SupplyChain-Delay-Intelligence/main/Dashboard%20Images%20Preview/Dashboard%202.png)
 
-**Highlights:**
-- Supplier on-time performance
-- Risk × delay analysis
-- SLA breach monitoring
-- Supplier action recommendations
+**Visuals:**
+- 📊 Horizontal bar chart — On-time % by supplier
+- 🔥 Risk × Delay heatmap
+- 📋 SLA breach table with action recommendations
+
+**SLA Action Logic:**
+
+```text
+Breach % > 60%  →  🔴 Review Contract
+Breach % > 30%  →  🟡 Issue Warning
+Breach % ≤ 30%  →  🟢 Monitor
+```
 
 ---
 
-### 📦 Dashboard 3 — Inventory Health
+### Page 3 — Inventory Health
+> *Never be surprised by a stock-out again*
 
 ![Dashboard 3](https://raw.githubusercontent.com/harshgholap05/SupplyChain-Delay-Intelligence/main/Dashboard%20Images%20Preview/Dashboard%203.png)
 
-**Highlights:**
-- Inventory alerts
-- Stock coverage analysis
-- Warehouse stock visibility
-- Reorder monitoring
+**Visuals:**
+- ⚠️ Replenishment alert table
+- 📊 Stock coverage by product category
+- 🗺️ Available stock by warehouse region
+
+**Stock Status Rules:**
+
+```text
+Stock = 0           → Out of Stock 🔴
+Stock < Reorder     → Below Reorder 🔴
+Stock < Reorder×1.2 → Near Reorder 🟡
+Stock ≥ Reorder×1.2 → Adequate 🟢
+```
 
 ---
 
-### 🚚 Dashboard 4 — Freight & Carriers
+### Page 4 — Freight & Carriers
+> *Spend smarter on freight — optimize cost vs performance*
 
 ![Dashboard 4](https://raw.githubusercontent.com/harshgholap05/SupplyChain-Delay-Intelligence/main/Dashboard%20Images%20Preview/Dashboard%204.png)
 
-**Highlights:**
-- Freight cost analysis
-- Shipment mode distribution
-- Cost vs on-time comparison
-- Carrier performance evaluation
+**KPI Cards (3):**
+- 💰 Total Freight Cost (₹L)
+- ⏱️ Avg On-time % across all carriers
+- 📦 Freight-to-order value ratio %
 
----
+**Visuals:**
+- 📊 Freight cost by carrier bar chart
+- 🍩 Shipment mode mix donut
+- 🎯 Cost vs On-time % scatter plot
+- 📊 Carrier on-time performance horizontal bars
+
 
 ---
 
