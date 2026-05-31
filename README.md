@@ -13,7 +13,7 @@
 
 <br/>
 
-[🔴 Live Demo](https://supplychain-delay-intelligence-harshvardhan-gholap.vercel.app/) &nbsp;·&nbsp; [📊 Power BI Report](#dashboard-pages) &nbsp;·&nbsp; [📖 Documentation](#data-flow)
+[🔴 Live Demo](https://supplychain-delay-intelligence-harshvardhan-gholap.vercel.app/) &nbsp;·&nbsp; 
 
 <br/>
 
