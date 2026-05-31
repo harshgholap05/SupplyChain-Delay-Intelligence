@@ -13,7 +13,7 @@
 
 <br/>
 
-[🔴 Live Demo](https://supplychain-delay-intelligence-harshvardhan-gholap.vercel.app/) &nbsp;
+[![View Portfolio](https://img.shields.io/badge/🌐_View_Portfolio-Open_Website-8B5CF6?style=for-the-badge)](https://supplychain-delay-intelligence-harshvardhan-gholap.vercel.app/)
 
 <br/>
 
