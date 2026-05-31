@@ -366,6 +366,6 @@ SELECT TOP 5 * FROM dbo.vw_OrderDelayFact ORDER BY DelayDays DESC;
 
 **⭐ If this project helped you, please give it a star!**
 
-*Built with ❤️ using SQL Server · Power BI · DAX · Power Query*
+*Built using · Excel · SQL Server · Power BI · DAX · Power Query*
 
 </div>
