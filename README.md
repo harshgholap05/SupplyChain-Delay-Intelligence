@@ -360,7 +360,7 @@ SELECT TOP 5 * FROM dbo.vw_OrderDelayFact ORDER BY DelayDays DESC;
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live-7c3aed?style=flat-square)](https://supplychain-delay-intelligence-harshvardhan-gholap.vercel.app/)
 <a href="https://www.linkedin.com/in/harshvardhan-gholap-821255326/" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin" alt="LinkedIn">
-</a>---
+</a>
 
 <div align="center">
 
