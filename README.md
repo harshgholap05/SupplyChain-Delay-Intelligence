@@ -358,9 +358,9 @@ SELECT TOP 5 * FROM dbo.vw_OrderDelayFact ORDER BY DelayDays DESC;
 **Harshvardhan Gholap**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live-7c3aed?style=flat-square)](https://supplychain-delay-intelligence-harshvardhan-gholap.vercel.app/)
-[![LinkedIn]([https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com](https://www.linkedin.com/in/harshvardhan-gholap-821255326/))
-
----
+<a href="https://www.linkedin.com/in/harshvardhan-gholap-821255326/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin" alt="LinkedIn">
+</a>---
 
 <div align="center">
 
